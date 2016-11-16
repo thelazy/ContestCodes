@@ -2,7 +2,7 @@
 
 using namespace std;
 
-vector <int> graph[100000];
+vector <int> graph[00000];
 int reached[100000];
 
 void dfs(int source){
