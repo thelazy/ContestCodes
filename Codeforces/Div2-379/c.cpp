@@ -4,18 +4,28 @@ using namespace std;
 
 int main(){
 	long long n, m, k, i, min, temp, j;
-	cin>>n>>m>>k;
+	scanf("%I64d", &n);scanf("%I64d", &m);scanf("%I64d", &k);
+	//cin>>n>>m>>k;
 	long long x, s;
-	cin>>x>>s;
+	scanf("%I64d", &x);scanf("%I64d", &s);
+	//cin>>x>>s;
 	long long A[m], B[m], C[k], D[k];
-	for(i=0; i<m; i++)
-		cin>>A[i];
-	for(i=0; i<m; i++)
-		cin>>B[i];
-	for(i=0; i<k; i++)
-		cin>>C[i];
-	for(i=0; i<k; i++)
-		cin>>D[i];
+	for(i=0; i<m; i++){
+		scanf("%I64d", &A[i]);
+		//cin>>A[i];
+	}
+	for(i=0; i<m; i++){
+		scanf("%I64d", &B[i]);
+		//cin>>B[i];
+	}
+	for(i=0; i<k; i++){
+		scanf("%I64d", &C[i]);
+		//cin>>C[i];
+	}
+	for(i=0; i<k; i++){
+		scanf("%I64d", &D[i]);
+		//cin>>D[i];
+	}
 
 	min = n*x;
 	for(i=0; i<m; i++){
