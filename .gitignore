@@ -1,2 +1,5 @@
 #Files to ignore
 .DS_Store
+a.out
+in
+out
